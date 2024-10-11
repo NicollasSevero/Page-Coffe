@@ -7,53 +7,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- Cabeçalho -->
     <header>
-        <div class="container"> 
+        <div class="container">
+            <h1>Café Natural</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Sobre<a></li>
-                    <li><a href="#">Cardapio</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- Seção Hero -->
     <section class="hero">
         <div class="container">
-            <h2> O melhor café da cidade </h2>
-            <p>Disfrute de um abiente aconchegante com os melhores grãos artesanais</p>
+            <h2>O Melhor Café da Cidade</h2>
+            <p>Desfrute de um ambiente aconchegante com os melhores grãos artesanais.</p>
             <a href="#cardapio" class="btn">Ver Cardápio</a>
         </div>
     </section>
 
-    <section class="sobre">
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
         <div class="container">
-            <h2>Sobre nós</h2>
-        <p>No Café Natural, oferecemos uma seleção dos melhores cafés do mundo! Nossa missão é proporcionar a você uma experiencia unica .</p>
+            <h2>Sobre Nós</h2>
+            <p>No Café Natural, oferecemos uma seleção dos melhores cafés do mundo, preparados artesanalmente em um ambiente acolhedor. Nossa missão é proporcionar a você uma experiência única a cada xícara.</p>
         </div>
     </section>
 
-    <section class="cardapio">
-        <div class="itens-cardapio">
-            <h2>Nosso Cardapio</h2>
-            <div class="item">
-                <img src="download.jpg" alt="café-expresso">
-                <h3>Café Expresso</h3>
-                <p>R$ 8,00</p>
-            </div>
-            <div class="item">
-                <img src="download2.jpg" alt="cappuccino">
-                <h3>Cappuccino</h3>
-                <p>R$ 10,00</p>
-            </div>
-            <div class="item">
-                <img src="latte.jpg" alt="latte">
-                <h3>Latte</h3>
-                <p>R$ 12,00</p>
+    <!-- Seção Cardápio -->
+    <section id="cardapio" class="cardapio">
+        <div class="container">
+            <h2>Nosso Cardápio</h2>
+            <div class="itens-cardapio">
+                <div class="item">
+                    <img src="download.jpg" alt="Café Expresso">
+                    <h3>Café Expresso</h3>
+                    <p>R$ 8,00</p>
+                </div>
+                <div class="item">
+                    <img src="download2.jpg" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <p>R$ 10,00</p>
+                </div>
+                <div class="item">
+                    <img src="latte.jpg" alt="Latte">
+                    <h3>Latte</h3>
+                    <p>R$ 12,00</p>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para saber mais ou fazer uma reserva:</p>
+            <form action="#">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Café Natural. Todos os direitos reservados. <br> by Nicollas Severo</p>
+        </div>
+    </footer>
+
 </body>
 </html>

@@ -1,2 +1,170 @@
 @charset "TUF-8";
 
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6f4e37;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #6f4e37;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Seção Sobre */
+.sobre {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.sobre h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+   
+}
+
+/* Seção Cardápio */
+.cardapio {
+    background-color: #f9f3e5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cardapio h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.itens-cardapio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #6f4e37;
+}
+
+.item p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Seção Contato */
+.contato {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
